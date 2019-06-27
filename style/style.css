@@ -156,9 +156,28 @@ ul#menu li a
   text-decoration: none;
   background: transparent;} 
 
+#songadd
+ul#menu li g
+{ letter-spacing: 0.1em;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
 ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 { color: #FFF;
   background: #1C2C3E url(menu_select.png) repeat-x;}
+
+ul#menu li g:hover, ul#menu li.selected g, ul#menu li.selected g:hover
+{ color: #FFF;
+  background: #1C2C3E url(menu_select.png) repeat-x;}
+
 
 #site_content
 { width: 837px;
@@ -193,6 +212,10 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 
 
 .sidebar li a.selected
+{ color: #444;
+  text-decoration: none;} 
+
+.sidebar li g.selected
 { color: #444;
   text-decoration: none;} 
 
