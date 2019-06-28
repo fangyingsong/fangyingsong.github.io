@@ -186,7 +186,7 @@ ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
 .sidebar li a, .sidebar li a:hover
 { padding: 0 0 0 40px;
   display: block;
-  background: transparent url(search.png) no-repeat left center;} 
+  background: transparent url(search.png) no-repeat;} 
 
 
 .sidebar li a.selected
